@@ -41,8 +41,9 @@
     "gitRepo": {
       "type": "string"
     },
-    "test": {
-      "type": "string"
+    "slug": {
+      "type": "uid",
+      "targetField": "projectTitle"
     }
   }
 }
